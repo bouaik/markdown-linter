@@ -1,4 +1,6 @@
 #!/usr/bin/ruby
+# frozen_string_literal: true
+
 require 'colorize'
 require_relative '../lib/check.rb'
 
@@ -13,6 +15,18 @@ lines.each_with_index do |line, index|
       puts "#{index}: [OK] Heading length is good".green
     else
       puts "#{index}: [ERROR] Heading length is not good".red
+    end
+  elsif line =~ /!\[/
+    if check.url(line)
+      puts "#{index}: [OK] url image is good".green
+    else
+      puts "#{index}: [ERROR] url image is empty".red
+    end
+  elsif line =~ /\[/
+    if check.url(line)
+      puts "#{index}: [OK] url link is good".green
+    else
+      puts "#{index}: [ERROR] url link is empty".red
     end
   end
 end

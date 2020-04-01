@@ -5,11 +5,15 @@ In this project i created my own version of Ruby’s enumerable methods.
 
 ![Capture](https://user-images.githubusercontent.com/45256093/75766057-d4efd900-5d40-11ea-84e9-98f4e1f2ea42.JPG)
 
+
+![Capture]()
+
 ## Authors
 
 👤 **Lhoussaine Bouaik**
 
 - Github: [@bouaik](https://github.com/bouaik)
+- Github: [@bouaik]()
 
 ## 🤝 Contributing
 

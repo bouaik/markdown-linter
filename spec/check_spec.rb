@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'check'
 
 describe Check do
@@ -15,7 +17,27 @@ describe Check do
     end
 
     it 'print error if rule not passed' do
-      expect(check.check_head_length("hello world hwo are you i'm fine what about you")).to eql(false)
+      expect(check.check_head_length('hello world hwo are you')).to eql(false)
+    end
+  end
+
+  describe '#get_url' do
+    it 'extract url from line' do
+      expect(check.get_url('![@bouaik](https://github.com/bouaik)')).to eql('https://github.com/bouaik')
+    end
+
+    it 'return empty strng if url is empty' do
+      expect(check.get_url('![@bouaik]()')).to eql('')
+    end
+  end
+
+  describe '#url' do
+    it 'print ok if url is not empty' do
+      expect(check.url('https://github.com/bouaik')).to eql(true)
+    end
+
+    it 'print error if url is empty' do
+      expect(check.url('')).to eql(false)
     end
   end
 end
