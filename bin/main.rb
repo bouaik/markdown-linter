@@ -1,6 +1,4 @@
 #!/usr/bin/ruby
-# frozen_string_literal: true
-
 require 'colorize'
 require_relative '../lib/check.rb'
 

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # comment
 class Check
   def get_heading(line)
