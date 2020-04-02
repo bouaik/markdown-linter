@@ -42,4 +42,8 @@ class Check
   def url(line)
     !get_url(line).empty?
   end
+
+  def line_length(line)
+    line.length < 50
+  end
 end

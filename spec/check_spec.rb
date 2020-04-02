@@ -2,8 +2,8 @@ require 'check'
 
 describe Check do
   subject(:check) { Check.new }
-  let(:headings) { ["World"] }
-  let(:urls) { ["https://www.google.com"] }
+  let(:headings) { ['World'] }
+  let(:urls) { ['https://www.google.com'] }
 
   describe '#get_heading' do
     it 'gets the heading ' do
@@ -60,4 +60,14 @@ describe Check do
   #     expect(check.url('')).to eql(false)
   #   end
   # end
+
+  describe '#line_length' do
+    it 'return true if line length is good' do
+      expect(check.line_length('Give a ⭐️ if you like this project!')).to eql(true)
+    end
+
+    it 'return false if line length is too long' do
+      expect(check.line_length('In this project i created my own version of Ruby’s enumerable methods.')).to eql(false)
+    end
+  end
 end

@@ -34,6 +34,10 @@ lines.each_with_index do |line, index|
     else
       puts "#{index}: [ERROR] url link is empty".red
     end
+  elsif check.line_length(line)
+    puts "#{index}: [OK] line length is good".green
+  else
+    puts "#{index}: [ERROR] line length is too long".red
   end
 end
 
