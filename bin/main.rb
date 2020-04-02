@@ -9,10 +9,12 @@ lines = File.readlines('./files/file.md')
 lines.each_with_index do |line, index|
   index += 1
   if line =~ /^#/
-    if check.check_head_length(line)
+    if !check.duplicate(line, check.headings)
+      puts "#{index}: [ERROR] Heading already exist".red
+    elsif check.check_head_length(line)
       puts "#{index}: [OK] Heading length is good".green
     else
-      puts "#{index}: [ERROR] Heading length is not good".red
+      puts "#{index}: [ERROR] Heading length is too long".red
     end
   elsif line =~ /!\[/
     if check.url(line)

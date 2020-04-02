@@ -1,7 +1,22 @@
 # comment
 class Check
+  attr_accessor :headings
+  def initialize
+    @headings = []
+  end
+
   def get_heading(line)
     line.gsub(/^\W+/, '').chomp
+  end
+
+  def duplicate(line, headings)
+    headings << get_heading(line)
+    if headings.uniq == headings
+      true
+    else
+      headings.pop
+      false
+    end
   end
 
   def check_head_length(line)

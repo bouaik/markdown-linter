@@ -1,5 +1,9 @@
 # Enumerable-Methods
 
+
+
+# Enumerable-Methods
+
 ## About the Project
 In this project i created my own version of Ruby’s enumerable methods.
 
@@ -24,6 +28,9 @@ Feel free to check the [issues page](https://github.com/bouaik/Enumerable-Method
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Authors
+
 
 ## Acknowledgments
 
