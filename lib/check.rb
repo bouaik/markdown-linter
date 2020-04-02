@@ -1,15 +1,16 @@
 # comment
 class Check
-  attr_accessor :headings
+  attr_accessor :headings, :urls
   def initialize
     @headings = []
+    @urls = []
   end
 
   def get_heading(line)
     line.gsub(/^\W+/, '').chomp
   end
 
-  def duplicate(line, headings)
+  def duplicate_headings(line, headings)
     headings << get_heading(line)
     if headings.uniq == headings
       true
@@ -26,6 +27,16 @@ class Check
 
   def get_url(line)
     line[/.*\(([^\)]*)/, 1]
+  end
+
+  def duplicate_urls(line, urls)
+    urls << get_url(line)
+    if urls.uniq == urls
+      true
+    else
+      urls.pop
+      false
+    end
   end
 
   def url(line)

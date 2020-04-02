@@ -3,6 +3,7 @@ require 'check'
 describe Check do
   subject(:check) { Check.new }
   let(:headings) { ["World"] }
+  let(:urls) { ["https://www.google.com"] }
 
   describe '#get_heading' do
     it 'gets the heading ' do
@@ -10,17 +11,17 @@ describe Check do
     end
   end
 
-  describe '#duplicate' do
+  describe '#duplicate_headings' do
     it 'reuturn true if heading is not used before' do
-      expect(check.duplicate('## Hello', headings)).to eql(true)
+      expect(check.duplicate_headings('## Hello', headings)).to eql(true)
     end
 
     it 'reuturn false if heading is used before' do
-      expect(check.duplicate('## World', headings)).to eql(false)
+      expect(check.duplicate_headings('## World', headings)).to eql(false)
     end
   end
 
-  describe 'check_head_length' do
+  describe '#check_head_length' do
     it 'print ok if rule passed' do
       expect(check.check_head_length('hello')).to eql(true)
     end
@@ -37,6 +38,16 @@ describe Check do
 
     it 'return empty strng if url is empty' do
       expect(check.get_url('![@bouaik]()')).to eql('')
+    end
+  end
+
+  describe '#duplicate_urls' do
+    it 'reuturn true if url is not used before' do
+      expect(check.duplicate_headings('https://github.com/bouaik', urls)).to eql(true)
+    end
+
+    it 'reuturn false if url is used before' do
+      expect(check.duplicate_headings('https://www.google.com', urls)).to eql(false)
     end
   end
 

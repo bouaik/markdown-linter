@@ -14,12 +14,16 @@ In this project i created my own version of Ruby’s enumerable methods.
 
 ## Authors
 
+![Capture](https://user-images.githubusercontent.com/45256093/75766057-d4efd900-5d40-11ea-84e9-98f4e1f2ea42.JPG)
+
 👤 **Lhoussaine Bouaik**
 
 - Github: [@bouaik](https://github.com/bouaik)
 - Github: [@bouaik]()
 
 ## 🤝 Contributing
+
+- Github: [@bouaik](https://github.com/bouaik)
 
 Contributions, issues and feature requests are welcome!
 
@@ -31,6 +35,7 @@ Give a ⭐️ if you like this project!
 
 ## Authors
 
+![Capture](https://github.com/bouaik)
 
 ## Acknowledgments
 
