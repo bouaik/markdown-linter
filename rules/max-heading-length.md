@@ -1,7 +1,7 @@
 # maximum heading length
-> print Ok wen heading length is less than 20 charcters
+> print Ok wen heading length is less than 20 characters
 
-> print Error wen heading length is more than 20 charcters
+> print Error wen heading length is more than 20 characters
 
 **Exemple 1**
 ```
@@ -13,7 +13,7 @@ linter message
 ```
 **Exemple 2**
 ```
-Heading length is too long
+## Heading length is too long
 ```
 linter message
 ```
