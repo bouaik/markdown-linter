@@ -22,7 +22,7 @@ class Check
 
   def check_head_length(line)
     heading = get_heading(line)
-    heading.length < 15
+    heading.length < 20
   end
 
   def get_url(line)

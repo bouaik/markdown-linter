@@ -1,50 +1,36 @@
-# Heading length good kngih  ihgi h
+# Heading length good
 
-## Heading 
+## Heading length is too long
+
+
+In this project i created a marckdown linter using ruby.
+
+In this project i created a linter.
 
 
 
-# Enumerable-Methods
-
-## About the Project
-In this project i created my own version of Ruby’s enumerable methods.
-
-![Capture](https://user-images.githubusercontent.com/45256093/75766057-d4efd900-5d40-11ea-84e9-98f4e1f2ea42.JPG)
-
+![Capture](https://via.placeholder.com/300x150)
 
 ![Capture]()
 
-## Authors
 
-![Capture](https://user-images.githubusercontent.com/45256093/75766057-d4efd900-5d40-11ea-84e9-98f4e1f2ea42.JPG)
 
-👤 **Lhoussaine Bouaik**
+![Capture](https://via.placeholder.com/300x150/f00)
 
-- Github: [@bouaik](https://github.com/bouaik)
+![Capture](https://via.placeholder.com/300x150/f00)
+
+
+
+
+- Github: [@bouaik](https://github.com)
+
 - Github: [@bouaik]()
 
-## 🤝 Contributing
 
-- Github: [@bouaik](https://github.com/bouaik)
 
-Contributions, issues and feature requests are welcome!
+- Github: [@bouaik](https://github.com)
 
-Feel free to check the [issues page](https://github.com/bouaik/Enumerable-Methods/issues).
+- Github: [@bouaik](https://github.com)
 
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Authors
-
-![Capture](https://github.com/bouaik)
-
-## Acknowledgments
-
-- Microverse
-- the Oding Project
-- Ruby Docs
-
-## 📝 License
 
 This project is [MIT](lic.url) licensed.
