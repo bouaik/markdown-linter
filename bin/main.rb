@@ -44,7 +44,7 @@ lines.each_with_index do |line, index|
 end
 
 if lines[-1] =~ /\n/
-  puts "#{lines.length} [OK] file has new line character at the end ".green
+  puts "#{lines.length + 1} [OK] file has new line character at the end ".green
 else
   puts "#{lines.length} [ERROR] file missing new line character at the end ".red
 end

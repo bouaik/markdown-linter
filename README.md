@@ -1,6 +1,6 @@
 # Markdown linter
 
-> I created a markdown linter that provides feedbacks about a given style.
+> I created a markdown linter that provides feedbacks about a given Rules.
 
 ## Built With
 
@@ -18,7 +18,7 @@
 - Put your marckdown file inside files folder with this name : file.md
 
 ## How to run Linter
-- run the executable file, using the command ./bin/main/rb
+- run the executable file, using the command ./bin/main.rb
 
 ## Authors
 
