@@ -5,7 +5,7 @@
 
 Exemple 1
 ```
-1 In this project i created a linter.
+In this project i created a linter.
 ```
 linter message
 ```

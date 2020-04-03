@@ -1,7 +1,7 @@
 # no duplicate link url
-> print Ok wen an image url is not used before
+> print Ok wen a link url is not used before
 
-> print ERROR wen an image url is used before
+> print ERROR wen a link url is used before
 
 Exemple 1
 ```

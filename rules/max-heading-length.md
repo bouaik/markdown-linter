@@ -5,7 +5,7 @@
 
 Exemple 1
 ```
-1 # Heading length good
+# Heading length good
 ```
 linter message
 ```
