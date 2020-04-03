@@ -3,7 +3,7 @@
 
 > print Error wen url is not given to a link
 
-Exemple 1
+**Exemple 1**
 ```
 - Exemple: [@exemple](https://www.exemple.com)
 ```
@@ -11,7 +11,7 @@ linter message
 ```
 1: [OK] url link is good
 ```
-Exemple 2
+**Exemple 2**
 ```
 - Exemple: [@exemple]()
 ```

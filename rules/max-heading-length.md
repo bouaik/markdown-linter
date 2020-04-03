@@ -3,7 +3,7 @@
 
 > print Error wen heading length is more than 20 charcters
 
-Exemple 1
+**Exemple 1**
 ```
 # Heading length good
 ```
@@ -11,7 +11,7 @@ linter message
 ```
 1: [OK] Heading length is good
 ```
-Exemple 2
+**Exemple 2**
 ```
 Heading length is too long
 ```

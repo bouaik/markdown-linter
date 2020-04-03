@@ -3,7 +3,7 @@
 
 > print ERROR wen an image url is used before
 
-Exemple 1
+**Exemple 1**
 ```
 ![Capture](https://via.placeholder.com/300x150/f00)
 

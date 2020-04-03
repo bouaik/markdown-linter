@@ -3,7 +3,7 @@
 
 > print ERROR wen a link url is used before
 
-Exemple 1
+**Exemple 1**
 ```
 - Exemple: [@exemple](https://www.exemple.com)
 

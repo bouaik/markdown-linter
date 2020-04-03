@@ -3,7 +3,7 @@
 
 > print Error wen url is not given to an image
 
-Exemple 1
+**Exemple 1**
 ```
 ![Capture](https://via.placeholder.com/300x150)
 ```
@@ -11,7 +11,7 @@ linter message
 ```
 1: [OK] url image is good
 ```
-Exemple 2
+**Exemple 2**
 ```
 ![Capture]()
 ```

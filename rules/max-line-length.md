@@ -3,7 +3,7 @@
 
 > print Error wen line length is more than 50 charcters
 
-Exemple 1
+**Exemple 1**
 ```
 In this project i created a linter.
 ```
@@ -11,7 +11,7 @@ linter message
 ```
 1: [OK] line length is good
 ```
-Exemple 2
+**Exemple 2**
 ```
 In this project i created a marckdown linter using ruby.
 ```
