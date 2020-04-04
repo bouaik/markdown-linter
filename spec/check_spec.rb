@@ -51,15 +51,15 @@ describe Check do
     end
   end
 
-  # describe '#url' do
-  #   it 'print ok if url is not empty' do
-  #     expect(check.url('https://github.com/bouaik')).to eql(true)
-  #   end
+  describe '#url' do
+    it 'print ok if url is not empty' do
+      expect(check.url('![@bouaik](https://github.com/bouaik)')).to eql(true)
+    end
 
-  #   it 'print error if url is empty' do
-  #     expect(check.url('')).to eql(false)
-  #   end
-  # end
+    it 'print error if url is empty' do
+      expect(check.url('![@bouaik]()')).to eql(false)
+    end
+  end
 
   describe '#line_length' do
     it 'return true if line length is good' do
